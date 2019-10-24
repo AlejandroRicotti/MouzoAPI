@@ -10,7 +10,9 @@ namespace MouzoAPI.Models
     {
         [Key]
         public int TravelerID { get; set; }
+        [Required]
         public String Firstname { get; set; }
+        [Required]
         public String Lastname { get; set; }
         public String DNI { get; set; }
         public String Phone { get; set; }
