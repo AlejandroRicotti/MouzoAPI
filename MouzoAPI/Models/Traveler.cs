@@ -8,6 +8,7 @@ namespace MouzoAPI.Models
 {
     public class Traveler
     {
+        [Key]
         public int TravelerID { get; set; }
         public String Firstname { get; set; }
         public String Lastname { get; set; }
@@ -23,7 +24,10 @@ namespace MouzoAPI.Models
         public String DeletedBy { get; set; }
         public Boolean Queue { get; set; }
 
+        public int TravelID { get; set; }
         public Travel Travel { get; set; }
+
+        public int UserID { get; set; }
         public User User { get; set; }
 
     }
