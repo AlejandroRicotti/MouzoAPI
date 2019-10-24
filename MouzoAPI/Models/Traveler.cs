@@ -25,5 +25,6 @@ namespace MouzoAPI.Models
 
         public Travel Travel { get; set; }
         public User User { get; set; }
+
     }
 }

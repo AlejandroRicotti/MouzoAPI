@@ -14,5 +14,5 @@ namespace MouzoAPI.Models
 
         public List<Traveler> Travelers { get; set; }
 
-}
+    }
 }
