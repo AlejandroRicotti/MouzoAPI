@@ -13,6 +13,6 @@ namespace MouzoAPI.Models
         public int Capacity { get; set; }
 
         public List<Traveler> Travelers { get; set; }
-
+        int prueba;
     }
 }
